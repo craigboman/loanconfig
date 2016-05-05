@@ -1,119 +1,228 @@
-,name,code,normal ln period,holdable,bookable,home pickup,shippable
-1,Student Circulating,R,21,y,n,n,n
-2,Student Book 3 weeks,R,21,n,n,n,n
-3,Student Book 2 weeks,R,14,n,n,n,n
-4,Student Book 1 week,R,7,n,n,n,n
-5,Student Book 3 days,R,3,n,n,n,n
-6,Student Book 2 days,R,2,n,n,n,n
-7,Student Book 1 day,R,1,n,n,n,n
-8,Fine No Night 4 hrs,K,4,n,n,n,n
-9,Fine Overnight 4 hrs,J,4,n,n,n,n
-10,Fine No Night 3 hrs,K,3,n,n,n,n
-11,Fine Overnight 3 hrs,J,3,n,n,n,n
-12,Fine No Night 2 hrs,K,2,n,n,n,n
-13,Fine Overnight 2 hrs,J,2,n,n,n,n
-14,Fine No Night 1 hr,K,1,n,n,n,n
-15,Fine Overnight 1 hr,J,1,n,n,n,n
+1,Student,R,21,y,n,n,n
+,Circulating,,,,,,
+2,Student Book 3,R,21,n,n,n,n
+,weeks,,,,,,
+3,Student Book 2,R,14,n,n,n,n
+,weeks,,,,,,
+4,Student Book 1,R,7,n,n,n,n
+,week,,,,,,
+5,Student Book 3,R,3,n,n,n,n
+,days,,,,,,
+6,Student Book 2,R,2,n,n,n,n
+,days,,,,,,
+7,Student Book 1,R,1,n,n,n,n
+,day,,,,,,
+8,Fine No Night,K,4,n,n,n,n
+,4 hrs,,,,,,
+9,Fine Overnight,J,4,n,n,n,n
+,4 hrs,,,,,,
+10,Fine No Night,K,3,n,n,n,n
+,3 hrs,,,,,,
+11,Fine Overnight,J,3,n,n,n,n
+,3 hrs,,,,,,
+12,Fine No Night,K,2,n,n,n,n
+,2 hrs,,,,,,
+13,Fine Overnight,J,2,n,n,n,n
+,2 hrs,,,,,,
+14,Fine No Night,K,1,n,n,n,n
+,1 hr,,,,,,
+15,Fine Overnight,J,1,n,n,n,n
+,1 hr,,,,,,
 16,Noncirculating,N,0,n,n,n,n
-17,Faculty Circulating,A,350,y,n,n,n
-18,Faculty/GA 3 week,R,21,n,n,n,n
-19,Faculty/GA 2 week,R,14,n,n,n,n
-20,Faculty/GA 1 week,R,7,y,n,n,n
-21,Faculty/GA 3 days,R,3,n,n,n,n
-22,Faculty/GA 2 days,R,2,n,n,n,n
-23,Faculty/GA 1 day,R,1,n,n,n,n
-24,Fac/GA Overnight 4hr,J,4,n,n,n,n
-25,Fac/GA Overnight 3hr,J,3,n,n,n,n
-26,Fac/GA Overnight 2hr,J,2,n,n,n,n
-27,Fac/GA Overnight 1hr,J,1,n,n,n,n
-28,Fac/GA No Night 4 hr,K,4,n,n,n,n
-29,Fac/GA No Night 3 hr,K,3,n,n,n,n
-30,Fac/GA No Night 2 hr,K,2,n,n,n,n
-31,Fac/GA No Night 1 hr,K,1,n,n,n,n
-32,GA Circulating,R,56,y,n,n,n
-33,Fac/GA No Night Clos,K,16,n,n,n,n
-34,Fine No Night Closed,K,16,n,n,n,n
-35,Law Library Non-circ,N,2,n,n,n,n
-36,Semester Law Faculty,R,120,Y,N,N,N
-37,Semester Law Review,R,120,N,N,N,N
+17,Faculty,A,350,y,n,n,n
+,Circulating,,,,,,
+18,Faculty/GA 3,R,21,n,n,n,n
+,week,,,,,,
+19,Faculty/GA 2,R,14,n,n,n,n
+,week,,,,,,
+20,Faculty/GA 1,R,7,y,n,n,n
+,week,,,,,,
+21,Faculty/GA 3,R,3,n,n,n,n
+,days,,,,,,
+22,Faculty/GA 2,R,2,n,n,n,n
+,days,,,,,,
+23,Faculty/GA 1,R,1,n,n,n,n
+,day,,,,,,
+24,Fac/GA,J,4,n,n,n,n
+,Overnight 4hr,,,,,,
+25,Fac/GA,J,3,n,n,n,n
+,,,,,,,
+,,,Page,1,,,
+,Overnight 3hr,,,,,,
+26,Fac/GA,J,2,n,n,n,n
+,Overnight 2hr,,,,,,
+27,Fac/GA,J,1,n,n,n,n
+,Overnight 1hr,,,,,,
+28,Fac/GA No,K,4,n,n,n,n
+,Night 4 hr,,,,,,
+29,Fac/GA No,K,3,n,n,n,n
+,Night 3 hr,,,,,,
+30,Fac/GA No,K,2,n,n,n,n
+,Night 2 hr,,,,,,
+31,Fac/GA No,K,1,n,n,n,n
+,Night 1 hr,,,,,,
+32,Ret.Fac/staff-V,R,120,y,n,n,n
+,isRes,,,,,,
+33,Fac/GA No,K,16,n,n,n,n
+,Night Clos,,,,,,
+34,Fine No Night,K,16,n,n,n,n
+,Closed,,,,,,
+35,Law Library,N,2,n,n,n,n
+,Non-circ,,,,,,
+36,Semester Law,R,120,Y,N,N,N
+,Faculty,,,,,,
+37,Semester Law,R,120,N,N,N,N
+,Review,,,,,,
 38,Law 120 Days,R,120,Y,N,,
-39,OL Pat do not use,R,21,y,n,n,n
+39,OL Pat do not,R,21,y,n,n,n
+,use,,,,,,
 40,Law 21 Days,R,21,Y,N,,
-41,Law 2 Day Reserve,R,2,Y,N,,
-42,Law 1 Day spec wk,R,1,Y,N,,
-43,Law 2 Hour Reserve,J,2,Y,N,,
-44,Law 2 Hour Reserve X,J,2,Y,N,,
-45,Law 1 Hour Reserve,J,1,N,N,,
-46,Marian CD Tapes & Vi,R,21,y,n,n,n
+41,Law 2 Day,R,2,Y,N,,
+,Reserve,,,,,,
+42,Law 1 Day spec,R,1,Y,N,,
+,wk,,,,,,
+43,Law 2 Hour,J,2,Y,N,,
+,Reserve,,,,,,
+44,Law 2 Hour,J,2,Y,N,,
+,Reserve X,,,,,,
+45,Law 1 Hour,J,1,N,N,,
+,Reserve,,,,,,
+46,Marian CD,R,21,y,n,n,n
+,Tapes & Vi,,,,,,
 47,Roesch ILL,R,30,N,N,,
-48,OL Stud -do not use,R,21,y,n,n,n
-49,OL F/S do not use,R,21,y,n,n,n
-50,Marian - 3 weeks,R,21,y,n,n,n
+48,OL Stud -do,R,21,y,n,n,n
+,not use,,,,,,
+49,OL F/S do not,R,21,y,n,n,n
+,use,,,,,,
+50,Marian - 3,R,21,y,n,n,n
+,weeks,,,,,,
 51,Marian - ILL,R,28,y,n,n,n
 52,GOV ELE - ILL,R,15,n,n,n,n
 53,GOV ELE - FINE,R,7,Y,N,,
-54,GOV ELE - FACULTY,R,7,Y,N,,
+54,GOV ELE -,R,7,Y,N,,
+,FACULTY,,,,,,
 55,O/L do not use,R,21,y,n,n,n
 56,Govt Doc Fine,R,21,y,n,n,n
 57,Faculty Gov OLD,R,120,y,n,n,n
 58,Law Library ILL,R,30,Y,N,,
-59,Law Lib F-Day Under,A,115,n,n,n,n
-60,Law Lib FDay Law Stu,A,123,n,n,n,n
+59,Law Lib F-Day,A,115,n,n,n,n
+,,,,,,,
+,,,Page,2,,,
+,Under,,,,,,
+60,Law Lib FDay,A,123,n,n,n,n
+,Law Stu,,,,,,
 61,Marian--Faculty,R,120,y,n,n,n
 62,GA Marian LIB,R,56,y,n,n,n
-63,Law Lib Unders F-Day,A,341,N,N,,
-64,Law Lib Lawstu F-Day,A,342,N,N,,
+63,Law Lib Unders,A,341,N,N,,
+,F-Day,,,,,,
+64,Law Lib Lawstu,A,342,N,N,,
+,F-Day,,,,,,
 65,Faculty Gov Doc,R,21,y,n,n,n
-66,OL Pat do not use,R,21,y,n,n,n
-67,OL Stud do not use,R,21,y,n,n,n
-68,OL F/S do not use,R,21,y,n,n,n
-69,Graduate Student 56,R,56,y,n,n,n
-70,CMC Student--USE #79,R,21,y,n,n,n
-71,Curriculum Faculty,R,120,y,n,n,n
-72,CMC Student 3 Days,R,3,n,n,n,n
-73,CMC Student 1 Week,R,7,n,n,n,n
-74,CMC Faculty 3 Days,R,3,n,n,n,n
-75,CMC Faculty 1 week,R,7,n,n,n,n
-76,Res. Video - Faculty,R,3,n,n,n,n
-77,Reserve Video-Studen,R,1,n,n,n,n
-78,CMC Student 3 weeks,R,21,y,n,n,n
-79,CMC Graduate Student,R,56,y,n,n,n
-80,Video - Course Reser,K,3,n,n,n,n
-81,Professor - Video,R,5,n,n,n,n
-82,Reserve Video-Studen,R,1,n,n,n,n
-83,Res. Video - Student,J,4,n,n,n,n
-84,Res Software - UD,R,1,N,N,,
-85,OhioLINK Med. - Stud,R,7,y,n,n,n
-86,Law Comp Ctr Soft,R,2,N,N,N,N
-87,Reserve - Laptop,I,4,Y,N,,
-88,OhioLINK Med. - Fac.,R,7,y,n,n,n
-89,Law News General,J,1,N,N,,
-90,Law News Faculty,J,1,N,N,,
+66,OL Pat do not,R,21,y,n,n,n
+,use,,,,,,
+67,OL Stud do not,R,21,y,n,n,n
+,use,,,,,,
+68,OL F/S do not,R,21,y,n,n,n
+,use,,,,,,
+69,Graduate,R,56,y,n,n,n
+,Student 56,,,,,,
+70,CMC,R,21,y,n,n,n
+,Student--USE,,,,,,
+,#79,,,,,,
+71,Curriculum,R,120,y,n,n,n
+,Faculty,,,,,,
+72,CMC Student 3,R,3,n,n,n,n
+,Days,,,,,,
+73,CMC Student 1,R,7,n,n,n,n
+,Week,,,,,,
+74,CMC Faculty 3,R,3,n,n,n,n
+,Days,,,,,,
+75,CMC Faculty 1,R,7,n,n,n,n
+,week,,,,,,
+76,Res. Video -,R,3,n,n,n,n
+,Faculty,,,,,,
+77,Reserve,R,1,n,n,n,n
+,Video-Studen,,,,,,
+78,CMC Student 3,R,21,y,n,n,n
+,weeks,,,,,,
+79,CMC Graduate,R,56,y,n,n,n
+,Student,,,,,,
+80,Video - Course,K,3,n,n,n,n
+,Reser,,,,,,
+81,Professor -,R,5,n,n,n,n
+,Video,,,,,,
+82,Reserve,R,1,n,n,n,n
+,Video-Studen,,,,,,
+83,Res. Video -,J,4,n,n,n,n
+,Student,,,,,,
+84,Res Software -,R,1,N,N,,
+,UD,,,,,,
+85,OhioLINK Med.,R,7,y,n,n,n
+,#NAME?,,,,,,
+86,Law Comp Ctr,R,2,N,N,N,N
+,Soft,,,,,,
+87,Reserve -,I,4,Y,N,,
+,Laptop,,,,,,
+88,OhioLINK Med.,R,7,y,n,n,n
+,#NAME?,,,,,,
+89,Law News,J,1,N,N,,
+,,,,,,,
+,,,Page,3,,,
+,General,,,,,,
+90,Law News,J,1,N,N,,
+,Faculty,,,,,,
 91,Curr Per 2 hrs,K,2,N,N,,
-92,Humanities LLC - Fac,R,21,N,N,,
-93,Hum. LLC - Student,R,21,N,N,,
+92,Humanities LLC,R,21,N,N,,
+,#NAME?,,,,,,
+93,Hum. LLC -,R,21,N,N,,
+,Student,,,,,,
 94,CMC ILL,R,30,n,n,n,n
-95,CMC 3day stud/grad,R,3,n,n,n,n
-96,Proxim Wireless Card,K,4,N,N,,
+95,CMC 3day,R,3,n,n,n,n
+,stud/grad,,,,,,
+96,Proxim,K,4,N,N,,
+,Wireless Card,,,,,,
 97,LTC videos 3hr,K,3,N,N,,
-98,Law Computer Lock,J,4,Y,N,,
-99,CMC STUDENT-1WK RES,R,7,n,n,n,n
-100,CMC Grad/Faculty/sta,R,56,y,n,n,n
-101,Visual Arts equipmen,R,2,n,n,n,n
-102,Media Eqp LTC/Roesch,R,7,y,n,n,n
-103,Kindle - 2 weeks,R,14,y,n,n,n
+98,Law Computer,J,4,Y,N,,
+,Lock,,,,,,
+99,CMC,R,7,n,n,n,n
+,STUDENT-1WK RES,,,,,,
+100,CMC,R,56,y,n,n,n
+,Grad/Faculty/st,,,,,,
+,a,,,,,,
+101,Visual Arts,R,2,n,n,n,n
+,equipmen,,,,,,
+102,Media Eqp,R,7,y,n,n,n
+,LTC/Roesch,,,,,,
+103,Kindle - 2,R,14,y,n,n,n
+,weeks,,,,,,
 104,Room 403 Honors,K,4,n,n,n,n
-105,Alumni Chair-Humanit,R,14,n,n,n,n
-106,SrchOhio Institution,R,21,y,n,n,n
-107,SrchOhio Media Inst,R,7,y,n,n,n
-108,SearchOhio Patron Me,R,7,y,n,n,n
-109,SearchOhio Patron,R,21,y,n,n,n
-110,Roesch Ind. Study,K,5,n,n,n,n
-111,CMC Kindle/Nook 2wks,R,14,y,n,n,n
-112,Roesch Group Study,K,3,n,n,n,n
-113,Roesch Honors Study,K,4,n,n,n,n
-114,OL Inst. Faculty,R,42,y,n,n,n
-115,OL Faculty Patron,R,42,y,n,n,n
-116,OL Inst. 6 Renewals,R,21,y,n,n,n
+105,Alumni,R,14,n,n,n,n
+,Chair-Humanit,,,,,,
+106,SrchOhio,R,21,y,n,n,n
+,Institution,,,,,,
+107,SrchOhio Media,R,7,y,n,n,n
+,Inst,,,,,,
+108,SearchOhio,R,7,y,n,n,n
+,Patron Me,,,,,,
+109,SearchOhio,R,21,y,n,n,n
+,Patron,,,,,,
+110,Roesch Ind.,K,5,n,n,n,n
+,Study,,,,,,
+111,CMC,R,14,y,n,n,n
+,Kindle/Nook,,,,,,
+,2wks,,,,,,
+112,Roesch Group,K,3,n,n,n,n
+,Study,,,,,,
+113,Roesch Honors,K,4,n,n,n,n
+,Study,,,,,,
+114,OL Inst.,R,42,y,n,n,n
+,Faculty,,,,,,
+115,OL Faculty,R,42,y,n,n,n
+,Patron,,,,,,
+116,OL Inst. 6,R,21,y,n,n,n
+,Renewals,,,,,,
 117,OL 6 renewals,R,21,y,n,n,n
 118,Media Equip-rss,R,1,n,n,n,n
+119,FlyerTV,R,3,n,n,n,n
+,equipment,,,,,,
+120,CMC Student -,R,21,y,n,n,n
