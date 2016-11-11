@@ -29,7 +29,7 @@
 15,Fine Overnight,J,1,n,n,n,n
 ,1 hr,,,,,,
 16,Noncirculating,N,0,n,n,n,n
-17,Faculty,A,350,y,n,n,n
+17,Faculty,A,150,y,n,n,n
 ,Circulating,,,,,,
 18,Faculty/GA 3,R,21,n,n,n,n
 ,week,,,,,,
@@ -47,7 +47,7 @@
 ,Overnight 4hr,,,,,,
 25,Fac/GA,J,3,n,n,n,n
 ,,,,,,,
-,,,Page,1,,,
+,,,,Page 1,,,
 ,Overnight 3hr,,,,,,
 26,Fac/GA,J,2,n,n,n,n
 ,Overnight 2hr,,,,,,
@@ -61,7 +61,7 @@
 ,Night 2 hr,,,,,,
 31,Fac/GA No,K,1,n,n,n,n
 ,Night 1 hr,,,,,,
-32,Ret.Fac/staff-V,R,120,y,n,n,n
+32,Ret.Fac/staff-,V R,120,y,n,n,n
 ,isRes,,,,,,
 33,Fac/GA No,K,16,n,n,n,n
 ,Night Clos,,,,,,
@@ -103,21 +103,21 @@
 ,FACULTY,,,,,,
 55,O/L do not use,R,21,y,n,n,n
 56,Govt Doc Fine,R,21,y,n,n,n
-57,Faculty Gov OLD,R,120,y,n,n,n
-58,Law Library ILL,R,30,Y,N,,
+57,Faculty Gov OL,D R,120,y,n,n,n
+58,Law Library IL,L R,30,Y,N,,
 59,Law Lib F-Day,A,115,n,n,n,n
 ,,,,,,,
-,,,Page,2,,,
+,,,,Page 2,,,
 ,Under,,,,,,
 60,Law Lib FDay,A,123,n,n,n,n
 ,Law Stu,,,,,,
-61,Marian--Faculty,R,120,y,n,n,n
+61,Marian--Facult,y R,120,y,n,n,n
 62,GA Marian LIB,R,56,y,n,n,n
 63,Law Lib Unders,A,341,N,N,,
 ,F-Day,,,,,,
 64,Law Lib Lawstu,A,342,N,N,,
 ,F-Day,,,,,,
-65,Faculty Gov Doc,R,21,y,n,n,n
+65,Faculty Gov Do,c R,21,y,n,n,n
 66,OL Pat do not,R,21,y,n,n,n
 ,use,,,,,,
 67,OL Stud do not,R,21,y,n,n,n
@@ -167,7 +167,7 @@
 ,#NAME?,,,,,,
 89,Law News,J,1,N,N,,
 ,,,,,,,
-,,,Page,3,,,
+,,,,Page 3,,,
 ,General,,,,,,
 90,Law News,J,1,N,N,,
 ,Faculty,,,,,,
@@ -185,44 +185,49 @@
 98,Law Computer,J,4,Y,N,,
 ,Lock,,,,,,
 99,CMC,R,7,n,n,n,n
-,STUDENT-1WK RES,,,,,,
+,STUDENT-1WK RE,S,,,,,
 100,CMC,R,56,y,n,n,n
-,Grad/Faculty/st,,,,,,
+,Grad/Faculty/s,t,,,,,
 ,a,,,,,,
 101,Visual Arts,R,2,n,n,n,n
 ,equipmen,,,,,,
-102,Media Eqp,R,7,y,n,n,n
-,LTC/Roesch,,,,,,
-103,Kindle - 2,R,14,y,n,n,n
+102,Kindle - 2,R,14,y,n,n,n
 ,weeks,,,,,,
-104,Room 403 Honors,K,4,n,n,n,n
-105,Alumni,R,14,n,n,n,n
+103,Room 403 Honor,s K,4,n,n,n,n
+104,Alumni,R,14,n,n,n,n
 ,Chair-Humanit,,,,,,
-106,SrchOhio,R,21,y,n,n,n
+105,SrchOhio,R,21,y,n,n,n
 ,Institution,,,,,,
-107,SrchOhio Media,R,7,y,n,n,n
+106,SrchOhio Media,R,7,y,n,n,n
 ,Inst,,,,,,
-108,SearchOhio,R,7,y,n,n,n
+107,SearchOhio,R,7,y,n,n,n
 ,Patron Me,,,,,,
-109,SearchOhio,R,21,y,n,n,n
+108,SearchOhio,R,21,y,n,n,n
 ,Patron,,,,,,
-110,Roesch Ind.,K,5,n,n,n,n
+109,Roesch Ind.,K,5,n,n,n,n
 ,Study,,,,,,
-111,CMC,R,14,y,n,n,n
+110,CMC,R,14,y,n,n,n
 ,Kindle/Nook,,,,,,
 ,2wks,,,,,,
-112,Roesch Group,K,3,n,n,n,n
+111,Roesch Group,K,3,n,n,n,n
 ,Study,,,,,,
-113,Roesch Honors,K,4,n,n,n,n
+112,Roesch Honors,K,4,n,n,n,n
 ,Study,,,,,,
-114,OL Inst.,R,42,y,n,n,n
+113,OL Inst.,R,42,y,n,n,n
 ,Faculty,,,,,,
-115,OL Faculty,R,42,y,n,n,n
+114,OL Faculty,R,42,y,n,n,n
 ,Patron,,,,,,
-116,OL Inst. 6,R,21,y,n,n,n
+115,OL Inst. 6,R,21,y,n,n,n
 ,Renewals,,,,,,
-117,OL 6 renewals,R,21,y,n,n,n
-118,Media Equip-rss,I,18,n,n,n,n
-119,FlyerTV,R,3,n,n,n,n
+116,OL 6 renewals,R,21,y,n,n,n
+117,Media Equip-rs,s R,1,n,n,n,n
+118,FlyerTV,R,3,n,n,n,n
 ,equipment,,,,,,
-120,CMC Student -,R,21,y,n,n,n
+119,CMC Student -,R,21,y,n,n,n
+,HF,,,,,,
+120,Alumnni/Specia,l R,21,y,n,n,n
+,,,,,,,
+,,,,Page 4,,,
+,Crtsy,,,,,,
+121,Media Eqp,R,7,y,n,n,n
+,LTC/Roesch,,,,,,
